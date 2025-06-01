@@ -1,0 +1,123 @@
+/* Base layout reset and centering */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  height: 100vh;
+}
+
+/* Main app wrapper */
+#app-container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome screen */
+#welcome {
+  margin-bottom: 20px;
+}
+
+#name-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Choice buttons */
+.choice-btn {
+  background-color: #4a90e2;
+  color: white;
+  margin: 5px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  min-width: 130px;
+  box-shadow: 0 3px 6px rgba(74, 144, 226, 0.4);
+}
+
+.choice-btn:hover:not(:disabled) {
+  background-color: #357ABD;
+}
+
+.choice-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Action/control buttons */
+#next-btn,
+#see-results-btn,
+#submit-btn,
+#play-again-btn,
+#quit-btn {
+  background-color: #f39c12;
+  color: white;
+  font-weight: bold;
+  margin: 15px 10px 0 10px;
+  padding: 14px 30px;
+  font-size: 0.7rem;
+  box-shadow: 0 4px 8px rgba(243, 156, 18, 0.6);
+  border: 2px solid #d78b0b;
+  min-width: 80px;
+}
+
+#next-btn:hover:not(:disabled),
+#see-results-btn:hover,
+#submit-btn:hover,
+#play-again-btn:hover,
+#quit-btn:hover {
+  background-color: #d67f0b;
+  box-shadow: 0 5px 10px rgba(214, 127, 11, 0.8);
+}
+
+#next-btn:disabled {
+  background-color: #f0c078;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* Media and choices */
+#media {
+  margin-bottom: 20px;
+}
+
+#choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Scoreboard styling */
+#scoreboard {
+  background-color: #e7f3e7;
+  border: 2px solid #8fbc8f;
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #2f4f2f;
+  box-shadow: 0 3px 6px rgba(143, 188, 143, 0.5);
+}
