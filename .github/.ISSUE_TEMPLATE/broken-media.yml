@@ -1,0 +1,34 @@
+name: 🐦 🔊 Broken Media Report
+description: Report a missing or broken image/audio for a bird
+title: "[Broken Media] "
+labels: [bug, media]
+body:
+  - type: input
+    id: bird-name
+    attributes:
+      label: Bird Name
+      description: What is the name of the bird with broken media?
+      placeholder: e.g. American Goldfinch
+    validations:
+      required: true
+
+  - type: dropdown
+    id: media-type
+    attributes:
+      label: Media Type
+      description: What type of media is broken?
+      options:
+        - Image
+        - Audio
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Describe the Issue
+      description: What exactly is broken or missing? (e.g., file won't load, 404, wrong file)
+      placeholder: Include as much detail as possible.
+    validations:
+      required: true

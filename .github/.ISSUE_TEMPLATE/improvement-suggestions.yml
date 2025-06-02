@@ -1,0 +1,42 @@
+name: 💡 Improvement Suggestion
+description: Share a suggestion to improve the bird game experience
+title: "[Suggestion]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💡 Have an idea to make the game better? Let us know!
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What's your suggestion?
+      description: Describe your idea clearly. What should be added, changed, or improved?
+      placeholder: e.g. Add a difficulty level, or improve the way birds are grouped
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this be helpful?
+      description: Explain how this change would improve the experience for players
+      placeholder: e.g. It would help new users learn gradually
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app does this relate to?
+      options:
+        - Bird images or audio
+        - Gameplay logic
+        - UI/Design
+        - Scoring or feedback
+        - Something else
+    validations:
+      required: false
