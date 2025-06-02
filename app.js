@@ -9,21 +9,30 @@ function getRandomBird() {
   return birds[randomIndex];
 }
 
-// Shuffle choices: correct bird + 2 random other birds in same distractor
 function shuffleChoices(correctBird) {
-  const sameTypeBirds = birds.filter(b => b.type === correctBird.type && b.name !== correctBird.name);
-  const choices = [correctBird.name];
+  const correctName = correctBird.name;
 
-  while (choices.length < 3 && sameTypeBirds.length > 0) {
-    const randBird = sameTypeBirds[Math.floor(Math.random() * sameTypeBirds.length)];
-    if (!choices.includes(randBird.name)) choices.push(randBird.name);
+  // Filter candidates by family (excluding the correct bird)
+  let candidates = birds.filter(b => b.family === correctBird.family && b.name !== correctName);
+
+  // If not enough, fall back to same order
+  if (candidates.length < 2) {
+    const orderCandidates = birds.filter(b => b.order === correctBird.order && b.name !== correctName);
+    // Avoid duplicates
+    candidates = [...new Set([...candidates, ...orderCandidates])];
   }
 
-  // Fill in with randoms if not enough same-type distractors
-  while (choices.length < 3) {
-    const fallback = birds[Math.floor(Math.random() * birds.length)].name;
-    if (!choices.includes(fallback)) choices.push(fallback);
+  // If still not enough, fall back to totally random
+  while (candidates.length < 2) {
+    const randomBird = getRandomBird();
+    if (randomBird.name !== correctName && !candidates.some(b => b.name === randomBird.name)) {
+      candidates.push(randomBird);
+    }
   }
+
+  // Shuffle and pick 2 incorrect answers
+  const distractors = candidates.sort(() => Math.random() - 0.5).slice(0, 2);
+  const choices = [correctName, ...distractors.map(b => b.name)];
 
   return choices.sort(() => Math.random() - 0.5);
 }
