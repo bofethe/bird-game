@@ -10,25 +10,25 @@ const birds = [
     name: "American Avocet",
     order: "charadriiformes",
     image: "assets/images/amav.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/IERLEVXEIF/XC587206-American-Avocet-BearRiverMBR-CR.mp3"
   },
     {
     name: "American Bittern",
     order: "pelecaniformes",
     image: "assets/images/ambi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SFRRHMLGSK/XC601776-American%20Bittern.mp3"
   },
     {
     name: "American Coot",
     order: "gruiformes",
     image: "assets/images/amco.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC936989-COOT_American_c-SBNWR-1100m-022324-1203.mp3"
   },
     {
     name: "Ameican Crow",
     order: "passeriformes",
     image: "assets/images/amcr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC524205-AMCR_2019-01-30_Darma%20Zen%20Rain%20Center_NE_Portland_OR_1034.mp3"
   },
     {
     name: "American Goldfinch",
@@ -38,7 +38,7 @@ const birds = [
       male_nb: "assets/images/amgo-nb-m.jpeg",
       female_br: "assets/images/amgo-br-f.jpeg",
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HRVQAOEHRR/XC958112-American-Goldfinch-5-8-22-Toronto.mp3"
   },
     {
     name: "American Kestrel",
@@ -47,13 +47,13 @@ const birds = [
       female: "assets/images/amke-f.jpeg",
       male: "assets/images/amke-m.jpeg"
     },
-    audio: "temp.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VJARXMSBTG/XC994755-Cr%C3%A9cerelle_Am%C3%A9rique_250418_2_Cuba.mp3"
   },
     {
     name: "American Oystercatcher",
     order: "charadriiformes",
     image: "assets/images/amoy.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/IHJAQKCKWM/XC871345-pilpilen.mp3"
   },
     {
     name: "American Redstart",
@@ -62,13 +62,13 @@ const birds = [
       male: "assets/images/amre-m.jpeg",
       female: "assets/images/amre-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839849-Paruline-flamboyante---Rondeau---22-05-2023.mp3"
   },
     {
     name: "American Robin",
     order: "passeriformes",
     image: "assets/images/amro.jpeg",
-    audio: "assets/audio/american_robin.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/EMFMDDVOUG/XC959619-210411-002-AMRO-Dromre-S-trail-Rate-2-hrs-0607.mp3"
   },
   {
     name: "American Wigeon",
@@ -77,13 +77,13 @@ const birds = [
       male: "assets/images/amwi-m.jpeg",
       female: "assets/images/amwi-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/EKKJJJRDJY/AMWI-UpNewportBayCA-1-7-2008a.mp3"
   },
   {
     name: "Amerian Woodcock",
     order: "charadriiformes",
     image: "assets/images/amwo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RCTJJHSQGO/XC805469-546247091.mp3"
   },
   {
     name: "Anhinga",
@@ -92,13 +92,13 @@ const birds = [
       male: "assets/images/anhi-m.jpeg",
       female: "assets/images/anhi-f.jpeg"
     },
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC705559-ANHINGA%20Big%20Cypress%20NR%20FL%202.19pm%20%2002272022%20.mp3'
   },
   {
     name: "American White Pelican",
     order: "pelecaniformes",
     image: "assets/images/awpe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/AWPE2009-6-27-1.mp3"
   },
   {
     name: "Bachman's Sparrow",
