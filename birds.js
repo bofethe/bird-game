@@ -1669,7 +1669,7 @@ const birds = [
     name: "White Ibis",
     order: "pelecaniformes",
     family: "Threskiornithidae",
-    image: "assets/images/wibi.jpeg",
+    image: "assets/images/whib.jpeg",
     audio: "TEMP.mp3"
   },
   {
