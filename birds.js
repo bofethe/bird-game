@@ -284,8 +284,8 @@ const birds = [
     order: "passeriformes",
     family: "Icteridae",
     images:{
-      male: "assets/images/bobl-m.jpeg",
-      female: "assets/images/bobl-f.jpeg"
+      male: "assets/images/bobo-m.jpeg",
+      female: "assets/images/bobo-f.jpeg"
     },
     audio: "TEMP.mp3"
   },
