@@ -1,10 +1,3 @@
-  // {
-  //   name: "temp",
-  //   order: "temp",
-  //   image: "assets/images/TEMP.jpeg",
-  //   audio: "TEMP.mp3"
-  // },
-
 const birds = [
     {
     name: "American Avocet",
@@ -28,7 +21,7 @@ const birds = [
     audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC936989-COOT_American_c-SBNWR-1100m-022324-1203.mp3"
   },
     {
-    name: "Ameican Crow",
+    name: "American Crow",
     order: "passeriformes",
     family: "Corvidae",
     image: "assets/images/amcr.jpeg",
@@ -90,7 +83,7 @@ const birds = [
     audio: "https://xeno-canto.org/sounds/uploaded/EKKJJJRDJY/AMWI-UpNewportBayCA-1-7-2008a.mp3"
   },
   {
-    name: "Amerian Woodcock",
+    name: "American Woodcock",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/amwo.jpeg",
@@ -176,7 +169,7 @@ const birds = [
     audio: "TEMP.mp3"
   },
   {
-    name: "Barrel Owl",
+    name: "Barred Owl",
     order: "strigiformes",
     family: "Strigidae",
     image: "assets/images/bdow.jpeg",
@@ -266,7 +259,7 @@ const birds = [
     audio: "TEMP.mp3"
   },
   {
-    name: "Barn Own",
+    name: "Barn Owl",
     order: "strigiformes",
     family: "Tytonidae",
     image: "assets/images/bnow.jpeg",
@@ -1145,7 +1138,7 @@ const birds = [
     audio: "TEMP.mp3"
   },
   {
-    name: "Orange Crowned Warbler",
+    name: "Orange-crowned Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/ocwa.jpeg",
@@ -1254,6 +1247,13 @@ const birds = [
     audio: "temp.mp3"
   },
   {
+    name: "Prothonotary Warbler",
+    order: "passeriformes",
+    family: "Parulidae",
+    image: "assets/images/prow.jpeg",
+    audio: "TEMP.mp3"
+  },
+  {
     name: "Purple Gallinule",
     order: "gruiformes",
     family: "Rallidae",
@@ -1285,7 +1285,7 @@ const birds = [
     audio: "TEMP.mp3"
   },
   {
-    name: "Red-brested nuthatch",
+    name: "Red-breasted Nuthatch",
     order: "passeriformes",
     family: "Sittidae",
     image: "assets/images/rbnu.jpeg",
@@ -1546,19 +1546,14 @@ const birds = [
     image: "assets/images/sosa.jpeg",
     audio: "TEMP.mp3"
   },
-
   {
     name: "Spotted Sandpiper",
     order: "passeriformes",
     family: "Scolopacidae",
-    image: "assets/images/spsa.jpeg",
-    audio: "TEMP.mp3"
-  },
-  {
-    name: "Sedge Wren",
-    order: "passeriformes",
-    family: "Troglodytidae",
-    image: "assets/images/sewr.jpeg",
+    images: {
+      breeding: "assets/images/spsa.jpeg",
+      nonbreeding: "assets/images/spsa-nb.jpeg"
+    },
     audio: "TEMP.mp3"
   },
   {
@@ -1580,6 +1575,20 @@ const birds = [
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/stha.jpeg",
+    audio: "TEMP.mp3"
+  },
+  {
+    name: "Swallow-tailed Kite",
+    order: "accipitriformes",
+    family: "Accipitridae",
+    image: "assets/images/stki.jpeg",
+    audio: "TEMP.mp3"
+  },
+  {
+    name: "Stilt Sandpiper",
+    order: "charadriiformes",
+    family: "Scolopacidae",
+    image: "assets/images/stsa.jpeg",
     audio: "TEMP.mp3"
   },
   {
