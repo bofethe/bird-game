@@ -111,14 +111,14 @@ const birds = [
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/bacs.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ESGJLNIGDA/XC877049-BACS2_ArchboldFL_03-21-2022.mp3"
   },
   {
     name: "Bald Eagle",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/baea.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LRBJKOMLDW/XC893195-BAEA_20231222_Avon,CT.mp3"
   },
   {
     name: "Baltimore Oriole",
@@ -128,21 +128,21 @@ const birds = [
       male: "assets/images/baor-m.jpeg",
       female: "assets/images/baor-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC818927-ORIOLE_Baltimore-Tawas-Point-SP-200m-051723-0641.mp3"
   },
   {
     name: "Barn Swallow",
     order: "passeriformes",
     family: "Hirundinidae",
     image: "assets/images/bars.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PRVFBYIQYZ/XC988212-hirundo-rustica-1-cortijo-grande-24-03-2025.mp3"
   },
   {
     name: "Black-and-white Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/baww.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RCTJJHSQGO/XC805472-572539351.mp3"
   },
   {
     name: "Black-bellied Plover",
@@ -152,42 +152,42 @@ const birds = [
       male: "assets/images/bbpl-m.jpeg",
       juvenile: "assets/images/bbpl-j.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "TEMP.mp3" // TODO Find audio
   },
   {
     name: "Black-bellied Whistling-Duck",
     order: "anseriformes",
     family: "Anatidae",
     image: "assets/images/bbwd.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/UAXIKEBHEA/XC982939-631982068.mp3"
   },
   {
     name: "Black-crowned Night-Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/bcnh.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC995929-Black-crowned-Night-Heron-%E5%A4%9C%E9%B9%AD-call---%E6%B7%B1%E5%9C%B3%E7%BA%A2%E6%A0%91%E6%9E%97%E5%85%AC%E5%9B%AD-%E5%B0%8F%E9%94%85-%2BJS4006%E5%8D%95%E9%BA%A6-250204_0637----A.mp3"
   },
   {
     name: "Barred Owl",
     order: "strigiformes",
     family: "Strigidae",
     image: "assets/images/bdow.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CQVHGWMGMC/XC1002439-BARO052825.mp3"
   },
   {
     name: "Belted Kingfisher",
     order: "coraciiformes",
     family: "Alcedinidae",
     image: "assets/images/beki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MGVGHKBMIZ/XC600420-Kingfisher3.mp3"
   },
   {
     name: "Blue-gray Gnatcatcher",
     order: "passeriformes",
     family: "Polioptilidae",
     image: "assets/images/bggn.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC943705-BLUE-GRAY-GNATCATCHER-CALLS-HUAYAPAM-OCT-22-914-DR0000_2388.mp3"
   },
   {
     name: "Brown-headed Cowbird",
@@ -197,35 +197,35 @@ const birds = [
       female: "assets/images/bhco-f.jpeg",
       male: "assets/images/bhco-m.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ZQJCLMBULK/XC999447-250518-074641-BHCO.mp3"
   },
   {
     name: "Brown-headed Nuthatch",
     order: "passeriformes",
     family: "Sittidae",
     image: "assets/images/bhnu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LOAVJDRPYN/XC726413-Brown-headed%20Nuthatch%20-%2020220514-062947%20-%20Longleaf%20Flatwoods%20Reserve%2C%20FL.mp3"
   },
   {
     name: "Blue-headed Vireo",
     order: "passeriformes",
     family: "Vireonidae",
     image: "assets/images/bhvi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC933588-BHVI_EATO_2024-05-13_GWNF_Emerald_Pond_Page_County_VA_1034(2).mp3"
   },
   {
     name: "Blue Jay",
     order: "passeriformes",
     family: "Corvidae",
     image: "assets/images/blja.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YHKQPPJDVP/XC899923-240421_2212BLJA-10m-mp3-amp.mp3"
   },
   {
     name: "Black Rail",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/blra.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PVQOLRXXWL/XC419186-Black%20Rail%201%20on%206.6.18%20st%20Lower%20Latham%20Weld%20CO%2020.45%20for%20.09_0938.mp3"
   },
   {
     name: "Black Scoter",
@@ -235,42 +235,42 @@ const birds = [
       male: "assets/images/blsc-m.jpeg",
       female: "assets/images/blsc-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WOPIRNCCSX/XC297399-Escoumins-2015-05-16-07h08%20LS115295.mp3"
   },
   {
     name: "Black Skimmer",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/blsk.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC573993-Black%20Skimmer%20flight%20call%20topo%20july%205%20651_0589.mp3"
   },
   {
     name: "Black Tern",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/blte-nb.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/TLORJJUZZT/XC918508-Guifette-noire-A-alarm-call-flight-call-20240704_0730-Marais-de-Fouras.mp3"
   },
   {
     name: "Black Vulture",
     order: "accipitriformes",
     family: "Cathartidae",
     image: "assets/images/blvu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/TGBFXDVERJ/XC327288-Coragyps%20atratus__Oriximina_1285.mp3"
   },
   {
     name: "Barn Owl",
     order: "strigiformes",
     family: "Tytonidae",
     image: "assets/images/bnow.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SEVIQQAKWM/XC696742-ZOOM0004_Tr1%20-%20Lechuza%20-%20Flight%20Calls.mp3"
   },
   {
     name: "Black-necked Stilt",
     order: "charadriiformes",
     family: "Recurvirostridae",
     image: "assets/images/bnst.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/QNQOLYYZEB/XC943161-H.-mexicanus-ZOOM0030.mp3"
   },
   {
     name: "Bobolink",
@@ -280,35 +280,35 @@ const birds = [
       male: "assets/images/bobo-m.jpeg",
       female: "assets/images/bobo-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ESGJLNIGDA/XC877072-BOBO2_LeeMetcalf_05-15-2021.mp3"
   },
   {
     name: "Bonaparte's Gull",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/bogu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC525249-Bonaparte%27s%20Gull%20flt%20mostly%20-CA%2C%20Salton%20Sea%20SRA%2C%20HQ%20and%20Cmpgrd%2C%20Jan%2014%2C%202020%2C%201155%20AM.mp3"
   },
   {
     name: "Brown Booby",
     order: "pelecaniformes",
     family: "Sulidae",
     image: "assets/images/brbo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC335793-Brown%20Booby%20chick%2045%20days.mp3"
   },
   {
     name: "Brown Pelican",
     order: "pelecaniformes",
     family: "Pelecanidae",
     image: "assets/images/brpe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/UQPMMMLMXB/XC357928-Pelecanus_occidentalis_PRIAM_Judith_26fev2017_13h21.MP3"
   },
   {
     name: "Brown Thrasher",
     order: "passeriformes",
     family: "Mimidae",
     image: "assets/images/brth.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839369-Moqueur-roux_Michigan_19-05-2023.mp3"
   },
   {
     name: "Boat-tailed Grackle",
@@ -318,7 +318,7 @@ const birds = [
       male: "assets/images/btgr-m.jpeg",
       female: "assets/images/btgr-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PVQOLRXXWL/XC941307-Boat-tailed-Grackle-on-3.23.24-at-16.17-for-.10-at-Green-Cay-Wetlands-FL.mp3"
   },
   {
     name: "Bufflehead",
@@ -328,14 +328,14 @@ const birds = [
       male: "assets/images/buff-m.jpeg",
       female: "assets/images/buff-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC361916-Bufflehead%20female%20-CA%2C%20Arcata%20Marsh%2C%20Humboldt%20County%2C%20January%2028%2C%202017%2C%200200%20PM.mp3"
   },
   {
     name: "Burrowing Owl",
     order: "strigiformes",
     family: "Strigidae",
     image: "assets/images/buow.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GSINAVRFEN/XC524491-a365.%20Athene%20cunicularia.%20Corregimiento%20de%20Choch%C3%B3%2C%20Sincelejo-Sucre.%20Dic.%2007.%202019.mp3"
   },
   {
     name: "Blue-winged Teal",
@@ -345,28 +345,28 @@ const birds = [
       male: "assets/images/bwte-m.jpeg",
       female: "assets/images/bwte-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "http://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC173306-Blue-winged%20Teal%205%20dozen%20feeding%20-FL%2C%20MINWR%2C%20Scrub%20Hammock%2C%20February%2026%2C%202014%2C%201041%20AM.mp3"
   },
   {
     name: "Blue-winged Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/bwwa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HNIFQCMOLA/XC598819-Blue%20Winged%20Warbler_22Jun2019_Nashua_NH.mp3"
   },
   {
     name: "Carolina Chickadee",
     order: "passeriformes",
     family: "Paridae",
     image: "assets/images/cach.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC933605-CACH_WEWA_OVEN_2024-05-13_GWNF_Emerald_Pond_Page_County_VA_1002(2).mp3"
   },
   {
     name: "Cattle Egret",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/caeg.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC989226-Sat-Mar-22-2025-07-29-06-H%C3%A9ron-gardeboeuf-+.mp3"
   },
   {
     name: "Canada Goose",
