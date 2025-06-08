@@ -373,7 +373,7 @@ const birds = [
     order: "anseriformes",
     family: "Anatidae",
     image: "assets/images/cago.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/QKELZYKUGX/XC817899-Canada-Geese-Flying.mp3"
   },
   {
     name: "Canvasback",
@@ -383,14 +383,14 @@ const birds = [
       male: "assets/images/canv-m.jpeg",
       female: "assets/images/canv-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/AZXTZTQJRO/Aythya_valisineria_MI-BI_20070319_C1_ATC.mp3"
   },
   {
     name: "Carolina Wren",
     order: "passeriformes",
     family: "Troglodytidae",
     image: "assets/images/carw.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PVQOLRXXWL/XC941065-Carolina-Wren-on-3.20.24-at-15.45-for-.10-at-Circle-B-Bar-Preserve-FL.mp3"
   },
   {
     name: "Caspian Tern",
@@ -400,42 +400,42 @@ const birds = [
       breeding: "assets/images/cate-br.jpeg",
       nonbreeding: "assets/images/cate-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC799411-Skr%C3%A4nt%C3%A4rna_11.mp3"
   },
   {
     name: "Cedar Waxwing",
     order: "passeriformes",
     family: "Bombycillidae",
     image: "assets/images/cewa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC641547-Cedar%20Waxwings%20SAE%20apr%2022%20710_2094.mp3"
   },
   {
     name: "Common Ground-Dove",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/cgdo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC740454-Common%20ground%20Dove%20song%20Soledad%20Jul%2029%20904_0520.mp3"
   },
   {
     name: "Chipping Sparrow",
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/chsp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OKSKESEOLP/XC939192-LS104170_Chipping_Sparrow_Lake_Audy_Rd.mp3"
   },
   {
     name: "Chimney Swift",
     order: "apodiformes",
     family: "Apodidae",
     image: "assets/images/chsw.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RSRUUVOCGA/XC316342-BA_JRR_CHSW_2016_05_13_1714_Oxford_LafayetteCo_MS.mp3"
   },
   {
     name: "Clapper Rail",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/clra.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VROUALCTKG/XC962909-Clapper-Rail-(call,-PR,-Cabo-Rojo,-220304_007).mp3"
   },
   {
     name: "Cape May Warbler",
@@ -445,14 +445,14 @@ const birds = [
       male: "assets/images/cmwa-m.jpeg",
       female: "assets/images/cmwa-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WOPIRNCCSX/XC319659-Gaspesie-2016-05-23-06h30%20LS115719.mp3"
   },
   {
     name: "Common Gallinule",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/coga.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VROUALCTKG/XC962933-PROB-Common-Gallinule-(call,-PR,-Botanical-Garden,-220304_014.mp3"
   },
   {
     name: "Common Goldeneye",
@@ -462,7 +462,7 @@ const birds = [
       male: "assets/images/cogo-m.jpeg",
       female: "assets/images/cogo-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC998246-Knipa_27.mp3"
   },
   {
     name: "Common Grackle",
@@ -472,14 +472,14 @@ const birds = [
       male: "assets/images/cogr-m.jpeg",
       female: "assets/images/cogr-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/NWXCLJYBDK/XC908408-220417-Grackle%2C-calls%2C-backyard%2C-NR%2C-EM272para%2C-Toronto-9am.mp3"
   },
   {
     name: "Cooper's Hawk",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/coha.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/AVNNZOCYTN/XC414129-Record_2018-05-07_12-17-13.mp3"
   },
   {
     name: "Common Loon",
@@ -489,21 +489,21 @@ const birds = [
       breeding: "assets/images/colo-br.jpeg",
       nonbreeding: "assets/images/colo-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC478950-2018-08-05%20Hallormsstadur%20-%20Karahnukur%20Dam%20180805%20Plongeon%20imbrin%20tremelo.mp3"
   },
   {
     name: "Common Nighthawk",
     order: "caprimulgiformes",
     family: "Caprimulgidae",
     image: "assets/images/coni.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839182-Engoulevent-d-Am%C3%A9rique_Carden-Alvar_25-05-2023.mp3"
   },
   {
     name: "Common Tern",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/cote.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/NWTKEXMKCA/XC1002309-Common-Tern_Buir1.mp3"
   },
   {
     name: "Common Yellowthroat",
@@ -513,42 +513,42 @@ const birds = [
       male: "assets/images/coye-m.jpeg",
       female: "assets/images/coye-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC388336-COYE_YEWA_AMRE_WIFL_2017-06-25_Lubec_Lake_Area_GNP_MT_1422%282%29.mp3"
   },
   {
     name: "Crested Caracara",
     order: "falconiformes",
     family: "Falconidae",
     image: "assets/images/crca.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC932757-03-09-2024-6e31-Carcara-CARAIBAS.mp3"
   },
   {
     name: "Chuck-will's-widow",
     order: "caprimulgiformes",
     family: "Caprimulgidae",
     image: "assets/images/cwwi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC555492-Chuck%20Will%27s%20Widow%20Antrostomas%20carolinensis%20-%20Whita%20Mtns.%20OK%205-9-2017.mp3"
   },
   {
     name: "Double-crested Cormorant",
     order: "pelecaniformes",
     family: "Phalacrocoracidae",
     image: "assets/images/dcco.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC145783-Double-crested%20Cormorant%20two%20arguing%20-FL%2C%20Biolab%20Rd%2C%20Canaveral%20NS%2C%20Aug%2001%2C%202013%2C%201202%20PM%20part%201.mp3"
   },
   {
     name: "Downy Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/dowo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WMHNJNGJCW/XC880467-Dendropicos-pubescens110811.mp3"
   },
   {
     name: "Dunlin",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/dunl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MPDFSJHTXH/XC982474-becasseau_variable_hikman_13_A.mp3"
   },
   {
     name: "Eastern Bluebird",
@@ -558,28 +558,28 @@ const birds = [
       male: "assets/images/eabl-m.jpeg",
       female: "assets/images/eabl-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YBJUQSUJFZ/XC604632-Eastern%20Bluebirds%20winter%20flock.mp3"
   },
   {
     name: "Eastern Kingbird",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/eaki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HNIFQCMOLA/XC691320-Eastern%20Kingbird_23Jul2021_Lancy%20Brook%20Brookline%20NH.mp3"
   },
   {
     name: "Eastern Meadowlark",
     order: "passeriformes",
     family: "Icteridae",
     image: "assets/images/eame.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC934441-EAME_2024-05-16_Mike_Long-s_Woods_Rd_Page_County_VA_1606(2).mp3"
   },
   {
     name: "Eastern Phoebe",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/eaph.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/XNSUQRGJPZ/XC922957-2024-03-17-EAPH-song-1118.mp3"
   },
   {
     name: "Eastern Towhee",
@@ -589,14 +589,14 @@ const birds = [
       male: "assets/images/eato-m.jpeg",
       female: "assets/images/eato-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC895156-EATO_2024-03-28_Bealer-s_Ferry_Pond_Page_County_VA_1203(2).mp3"
   },
   {
     name: "Eurasian Collared-Dove",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/ecdo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VJARXMSBTG/XC921117-STRDEC_chant_240716_Ch%C3%A9cy.mp3"
   },
   {
     name: "Eastern Screech-Owl",
@@ -606,35 +606,35 @@ const birds = [
       gray: "assets/images/esow-g.jpeg",
       red: "assets/images/esow-r.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC712961-220304%200245%20Eastern%20Screech%20Ow.mp3"
   },
   {
     name: "European Starling",
     order: "passeriformes",
     family: "Sturnidae",
     image: "assets/images/eust.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/QUBGGKWQNN/XC1004477-250603_1304EuropeanStarling_Read_3Jun25_1815.mp3"
   },
   {
     name: "Eastern Wood-Pewee",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/ewpe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "http://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839983-Pioui-de-l-Est-2---Chaffey-s-Lock---29-05-2023.mp3"
   },
   {
     name: "Eastern Whip-poor-will",
     order: "caprimulgiformes",
     family: "Caprimulgidae",
     image: "assets/images/ewpw.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/NQKANDUFQH/XC929758-2024-05-11-EWPW-BakersRun.mp3"
   },
   {
     name: "Florida Scrub-Jay",
     order: "passeriformes",
     family: "Corvidae",
     image: "assets/images/flsj.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC758694-033122-1058-Florida-Scrub-Jay-2.mp3"
   },
   {
     name: "Forster's Tern",
@@ -644,21 +644,21 @@ const birds = [
       breeding: "assets/images/fote-br.jpeg",
       nonbreeding: "assets/images/fote-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC781029-FORSTERS-TERNs-in-flight-Brigantine-NJ-071412.mp3"
   },
   {
     name: "Fork-tailed Flycatcher",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/ftfl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/BYLLSJRVDZ/XC551102-0797%20BLL524-10%20Tyrannus%20savana.mp3"
   },
   {
     name: "Fulvous Whistling-Duck",
     order: "anseriformes",
     family: "Anatidae",
     image: "assets/images/fwdu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HRYIVDQHBC/XC711755-414235611.mp3"
   },
   {
     name: "Gadwall",
@@ -668,70 +668,70 @@ const birds = [
       male: "assets/images/gadw-m.jpeg",
       female: "assets/images/gadw-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC554111-JAREK-MATUSIAK-A-571%20%283%29.mp3"
   },
   {
     name: "Great Blue Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/gbhe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/URGFVYYSWH/XC906730-GBHE-Nov-24-2023-1730-migrating.mp3"
   },
   {
     name: "Great Crested Flycatcher",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/gcfl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC894353-Great-Crested-Flycatcher-call-la-florida-tab-abr-7-1014-DR0000_1787.mp3"
   },
   {
     name: "Great Horned Owl",
     order: "strigiformes",
     family: "Strigidae",
     image: "assets/images/ghow.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/URGFVYYSWH/XC805488-GHOW-loud-March-22,-2023-0045.mp3"
   },
   {
     name: "Gray-headed Swamphen",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/ghsw.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/NWTKEXMKCA/XC966312-Grey-headed-Swamphen_Putrajaya1.mp3"
   },
   {
     name: "Glossy Ibis",
     order: "pelecaniformes",
     family: "Threskiornithidae",
     image: "assets/images/glib.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WBZVBDKAUE/XC749098-glossyibisringsept22.mp3"
   },
   {
     name: "Gray Catbird",
     order: "passeriformes",
     family: "Mimidae",
     image: "assets/images/grca.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/QLIQOZZWBD/XC872263-dumerella-carolinensis.mp3"
   },
   {
     name: "Great Egret",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/greg.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KGENRQCZVH/XC973571-ARDALB_calls3_24012025_Doubounoro_7h.mp3"
   },
   {
     name: "Green Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/grhe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/DABODLPUPA/XC957415-2024-11-28-Green-Heron-flight-Nuevo-Vig%C3%ADa-PA-SOlmstead.mp3"
   },
   {
     name: "Gray Kingbird",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/grki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/TNTQAOFHFM/XC998476-0318-Grey-Kingbird.mp3"
   },
   {
     name: "Greater Scaup",
@@ -741,21 +741,21 @@ const birds = [
       male: "assets/images/grsc-m.jpeg",
       female: "assets/images/grsc-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OOECIWCSWV/XC322882-LS_52139%20Greater%20Scaup%20call%20B.mp3"
   },
   {
     name: "Grasshopper Sparrow",
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/grsp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HNIFQCMOLA/XC599646-Grasshhopper%20Sparrow_25Jul2019_Woodmont%20Orchard_Hollis_NH.mp3"
   },
   {
     name: "Greater Yellowlegs",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/grye.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC957945-02-01-2025-8e13-Macarico-grande-de-perna-amarela-GOIANIRA.mp3"
   },
   {
     name: "Green-winged Teal",
@@ -765,28 +765,28 @@ const birds = [
       male: "assets/images/gwte-m.jpeg",
       female: "assets/images/gwte-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YTUXOCTUEM/XC354707-Anas_carolinensis-FL%20calls%20Safety%20Lagoon%20Nome%202.07pm%202Jun15%20LS116903a.mp3"
   },
   {
     name: "Hairy Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/hawo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OKSKESEOLP/XC939213-LS104204_Hairy_Wood_Okanagan.mp3"
   },
   {
     name: "Herring Gull",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/hegu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WOPIRNCCSX/XC112582-American%20Herring%20Gull%20%28Montmagny-2012-11-11-09h15%29%20LS111108.mp3"
   },
   {
     name: "Hermit Thrush",
     order: "passeriformes",
     family: "Turdidae",
     image: "assets/images/heth.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC933560-HETH_2024-05-11_Tobyhanna_SP_Monroe_County_PA_1529(2).mp3"
   },
   {
     name: "House Finch",
@@ -796,7 +796,7 @@ const birds = [
       male: "assets/images/hofi-m.jpeg",
       female: "assets/images/hofi-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MLFEJSNPJS/XC1000426-House-Finch%281%29220425.mp3"
   },
   {
     name: "Horned Grebe",
@@ -806,7 +806,7 @@ const birds = [
       breeding: "assets/images/hogr-br.jpeg",
       nonbreeding: "assets/images/hogr-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/BBJSEFYVPV/XC715920-Slav%203.mp3"
   },
   {
     name: "Hooded Merganser",
@@ -816,7 +816,7 @@ const birds = [
       male: "assets/images/home-m.jpeg",
       female: "assets/images/home-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/XEIROMUDEB/XC142828-IAC%202013-01-04%20T15-55-54.mp3"
   },
   {
     name: "House Sparrow",
@@ -826,7 +826,7 @@ const birds = [
       male: "assets/images/hosp-m.jpeg",
       female: "assets/images/hosp-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GIFBPTEXWL/XC996905-20250511_FRAV2_0006_05_58_53.mp3"
   },
   {
     name: 'Hooded Warbler',
@@ -836,14 +836,14 @@ const birds = [
       male: 'assets/images/howa-m.jpeg',
       female: 'assets/images/howa-f.jpeg'
     },
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/XSAURLRZQM/XC499557-VA2015%20JRS%2004_a_xc.mp3'
   },
   {
     name: "House Wren",
     order: "passeriformes",
     family: "Troglodytidae",
     image: "assets/images/howr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CNCSMQPXIV/XC522951-%2A%20New%20Recording%207%20-%20Coiba.mp3"
   },
   {
     name: "Indigo Bunting",
