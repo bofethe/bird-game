@@ -853,21 +853,21 @@ const birds = [
       male: "assets/images/inbu-m.jpeg",
       female: "assets/images/inbu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839866-Passerin-indigo-3---Backus-woods---23-05-2023.mp3"
   },
   {
     name: "Killdeer",
     order: "charadriiformes",
     family: "Charadriidae",
     image: "assets/images/kill.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ZWAQHOJFLZ/XC955105-241028-Pluvier-kildir%40Barra-de-Colotepec.mp3"
   },
   {
     name: 'King Rail',
     order: 'gruiformes',
     family: 'Rallidae',
     image: 'assets/images/kira.jpeg',
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/BCFUZDOSJZ/XC383659-KIRA%2012-28-16%201100%20Backridge%20Rd%20TX1.mp3'
   },
   {
     name: "Laughing Gull",
@@ -877,35 +877,35 @@ const birds = [
       breeding: "assets/images/lagu-br.jpeg",
       nonbreeding: "assets/images/lagu-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ECOQJFBNFA/XC802487-20230514_Laughing_Gull_Gugh_EAF_%283%29.mp3"
   },
   {
     name: 'Lesser Black-backed Gull',
     order: 'charadriiformes',
     family: 'Laridae',
     image: 'assets/images/lbbg-nb.jpeg',
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/ITHRUQEQCF/XC979706-Lesser-Black-backed-Gull_call_0312_1625.mp3'
   },
   {
     name: "Long-billed Dowitcher",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/lbdo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC995056--01990-Long-billed-Dowitcher--CA,-TRV-estuary,-May-05,-2025,-0639-AM-edited.mp3"
   },
   {
     name: "Little Blue Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/lbhe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC705372-LITTLE%20BLUE%20HERON%20adult%20Big%20Cypress%20NR%20FL%208.32am%20%2002262022%20.mp3"
   },
   {
     name: "Least Bittern",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/lebi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC581228-Least%20Bittern%20-CA%2C%20Upper%20Otay%20Lk%2C%20July%2012%2C%202020%2C%200735%20AM.mp3"
   },
   {
     name: "Least Sandpiper",
@@ -915,7 +915,7 @@ const birds = [
       breeding: "assets/images/lesa-br.jpeg",
       nonbreeding: "assets/images/lesa-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC742363-Least%20Sandpiper%20calls%20colotepec%20ago%209%201845_0555.mp3"
   },
   {
     name: "Lesser Scaup",
@@ -925,63 +925,63 @@ const birds = [
       male: "assets/images/lesc-m.jpeg",
       female: "assets/images/lesc-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/LESSER%20SCAUP%20in%20flight%20Lostwood%20ND%2052507%20%282%29aa.mp3"
   },
   {
     name: "Least Tern",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/lete.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC662338-TERN_Least_c_flight%20El%20Golfo%20SON%20052121%201529.mp3"
   },
   {
     name: "Lesser Yellowlegs",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/leye.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YOXWKYFZAP/XC720777-Tringa%20flavipes%20DCB%20268-1C.mp3"
   },
   {
     name: "Limpkin",
     order: "gruiformes",
     family: "Aramidae",
     image: "assets/images/limp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WDSGEPZMTU/XC487423-limpkin061518myakkariver.mp3"
   },
   {
     name: "Loggerhead Shrike",
     order: "passeriformes",
     family: "Laniidae",
     image: "assets/images/losh.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC698484-Loggerhead%20Shrike%20song%20Xico%20ene%2019%20828_3087.mp3"
   },
   {
     name: "Louisiana Waterthrush",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/lowa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC828213-WATERTH_Louisiana-2x-McCormack-Lake-MO-200m-052323-0845.mp3"
   },
   {
     name: "Mangrove Cuckoo",
     order: "cuculiformes",
     family: "Cuculidae",
     image: "assets/images/macu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC265327-Mangrove%20Cuckoo2015-5-28-1.mp3"
   },
   {
     name: "Magnificent Frigatebird",
     order: "pelecaniformes",
     family: "Fregatidae",
     image: "assets/images/mafr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC889983-MAGNIFICENT-FRIGATEBIRD-pres-female-North-Seymour-Galapagos-4.19pm-03022024.mp3"
   },
   {
     name: "Marbled Godwit",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/mago.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WCNFEBIHCJ/XC293792-Marbled%20Godwit%20-%20Limosa%20fedoa%20-%20PJT_2015May24_1331_SKHeritageMarsh%20HPF800%20amp%2010.mp3"
   },
   {
     name: "Mallard",
@@ -991,28 +991,28 @@ const birds = [
       male: "assets/images/mall-m.jpeg",
       female: "assets/images/mall-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC946811-Gr%C3%A4sand_24.mp3"
   },
   {
     name: "Marsh Wren",
     order: "passeriformes",
     family: "Troglodytidae",
     image: "assets/images/mawr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/UWHBFUYWSQ/XC692435-Marsh%20Wren%20SMNWR%2020210509%201128.MP3"
   },
   {
     name: "Merlin",
     order: "falconiformes",
     family: "Falconidae",
     image: "assets/images/merl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YSDNMROVID/XC896663-falcol4.mp3"
   },
   {
     name: "Mourning Dove",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/modo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OKSKESEOLP/XC939196-LS104174B_Mourning_Dove_Lake_Audy_Rd.mp3"
   },
   {
     name: "Mottled Duck",
@@ -1022,28 +1022,28 @@ const birds = [
       male: "assets/images/modu-m.jpeg",
       female: "assets/images/modu-f.jpeg"
    },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC192343-Mottled%20Duck%20male%2C%20looked%20pure%2C%20yellow%20bill%2C%20straight%20tail%20not%20white%20-FL%2C%20MINWR%2C%20Peacock%27a%20Pocket%20Rd%20%2C%20April%2010%2C%202014%2C%201127%20AM.mp3"
   },
   {
     name: "Monk Parakeet",
     order: "psittaciformes",
     family: "Psittacidae",
     image: "assets/images/mopa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/THHNKSHUMO/XC824384-050-Conure-veuveSTE-104.mp3"
   },
   {
     name: "Muscovy Duck",
     order: "anseriformes",
     family: "Anatidae",
     image: "assets/images/mudu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/AHYWLCEJLP/XC163752-Casteina%20criolla%20dia%202.mp3"
   },
   {
     name: "Nanday Parakeet",
     order: "psittaciformes",
     family: "Psittacidae",
     image: "assets/images/napa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VWCBCAIJUC/XC854892-MixPre-001_Aratinga_nenday.mp3"
   },
   {
     name: "Northern Bobwhite",
@@ -1053,7 +1053,7 @@ const birds = [
       male: "assets/images/nobo-m.jpeg",
       female: "assets/images/nobo-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WEFETQLIEQ/XC411455-Northern%20Bobwhite%20%28song%29.mp3"
   },
   {
     name: "Northern Cardinal",
@@ -1063,21 +1063,21 @@ const birds = [
       male: "assets/images/noca-m.jpeg",
       female: "assets/images/noca-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CQVHGWMGMC/XC797998-noca050223.mp3"
   },
   {
     name: "Northern Flicker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/nofl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HRVQAOEHRR/XC957326-Northern-Flicker-10-8-22-Inglewood.mp3"
   },
   {
     name: "Northern Gannet",
     order: "suliformes",
     family: "Sulidae",
     image: "assets/images/noga.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC653151-Fou%20de%20Bassan%20cris%20filtered%20%2B.mp3"
   },
   {
     name: "Northern Harrier",
@@ -1087,21 +1087,21 @@ const birds = [
       male: "assets/images/noha-m.jpeg",
       female: "assets/images/noha-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/HKCIRWPZOP/XC776694-2022-05-25-1431-northern-harrier.mp3"
   },
   {
     name: "Northern Mockingbird",
     order: "passeriformes",
     family: "Mimidae",
     image: "assets/images/nomo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC731949-Northern%20Mockingbird%20song%20SPE%20June%2014%20840_0139.mp3"
   },
   {
     name: "Northern Parula",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/nopa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC825110-PARULA_Northern-1x-Magee-Marsh-WA-200m-051523-0859.mp3"
   },
   {
     name: "Northern Pintail",
@@ -1111,7 +1111,7 @@ const birds = [
       male: "assets/images/nopi-m.jpeg",
       female: "assets/images/nopi-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC721976-Stj%C3%A4rtand_09.mp3"
   },
   {
     name: "Northern Shoveler",
@@ -1121,21 +1121,21 @@ const birds = [
       male: "assets/images/nosh-m.jpeg",
       female: "assets/images/nosh-f.jpeg"
     },
-    audio: "Tempe.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ZNCDXTUOFL/XC644500-JAREK-MATUSIAK-A-1551%20%282%29%20p%C5%82askonos%20m%20ed.mp3"
   },
   {
     name: "Northern Waterthrush",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/nowa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC477981-STE-022.mp3"
   },
   {
     name: "Northern Rough-winged Swallow",
     order: "passeriformes",
     family: "Hirundinidae",
     image: "assets/images/nrws.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WUKEUEONAI/XC542595-nrws_040620_yumaeastwet.mp3"
   },
   {
     name: "Orange-crowned Warbler",
