@@ -152,7 +152,7 @@ const birds = [
       male: "assets/images/bbpl-m.jpeg",
       juvenile: "assets/images/bbpl-j.jpeg"
     },
-    audio: "TEMP.mp3" // TODO Find audio
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC938194-Thu-Oct-03-2024-18_27_12-Pluvier-argent%C3%A9-%2B.mp3"
   },
   {
     name: "Black-bellied Whistling-Duck",
@@ -345,7 +345,7 @@ const birds = [
       male: "assets/images/bwte-m.jpeg",
       female: "assets/images/bwte-f.jpeg"
     },
-    audio: "http://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC173306-Blue-winged%20Teal%205%20dozen%20feeding%20-FL%2C%20MINWR%2C%20Scrub%20Hammock%2C%20February%2026%2C%202014%2C%201041%20AM.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC173306-Blue-winged%20Teal%205%20dozen%20feeding%20-FL%2C%20MINWR%2C%20Scrub%20Hammock%2C%20February%2026%2C%202014%2C%201041%20AM.mp3"
   },
   {
     name: "Blue-winged Warbler",
@@ -620,7 +620,7 @@ const birds = [
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/ewpe.jpeg",
-    audio: "http://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839983-Pioui-de-l-Est-2---Chaffey-s-Lock---29-05-2023.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC839983-Pioui-de-l-Est-2---Chaffey-s-Lock---29-05-2023.mp3"
   },
   {
     name: "Eastern Whip-poor-will",
@@ -1142,7 +1142,7 @@ const birds = [
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/ocwa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC714516-Orange-crowned%20Warbler%20-CA%2C%20Laguna%20Mnts%20RA%2C%20San%20Benito%20Co%2C%20Mar%2031%2C%202022%2C%200151%20PM.mp3"
   },
   {
     name: "Orchard Oriole",
@@ -1152,21 +1152,21 @@ const birds = [
       male: "assets/images/oror-m.jpeg",
       female: "assets/images/oror-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LIMOMMAPWS/XC804246-orchard-honker.mp3"
   },
   {
     name: "Osprey",
     order: "accipitriformes",
     family: "Pandionidae",
     image: "assets/images/ospr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC573484-Osprey%20song%20maviri%20july%204%20934_0577.mp3"
   },
   {
     name: "Ovenbird",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/oven.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC934448-OVEN_2024-05-16_Beahm-s_Gap_Shenandoah_NP_Page_County_VA_1242(2).mp3"
   },
   {
     name: "Painted Bunting",
@@ -1176,7 +1176,7 @@ const birds = [
       male: "assets/images/pabu-m.jpeg",
       female: "assets/images/pabu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/UTXSVIHVRJ/XC920148-ciris2080724-061357.mp3"
   },
   {
     name: "Palm Warbler",
@@ -1186,21 +1186,21 @@ const birds = [
       breeding: "assets/images/pawa-br.jpeg",
       nonbreeding: "assets/images/pawa-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PWDLINYMKL/PalmWarbler.mp3"
   },
   {
     name: "Pied-billed Grebe",
     order: "podicipediformes",
     family: "Podicipedidae",
     image: "assets/images/pbgr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MDZVOPUOXU/XC542619-200321_01.pied.billed.grebe.san.dimas.canyon.reservoir.lance.benner.mp3"
   },
   {
     name: "Peregrine Falcon",
     order: "falconiformes",
     family: "Falconidae",
     image: "assets/images/pefa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WNLIDKJKXT/XC880751-Falco-peregrinus_CALL_Riba_roja-d-Ebre_240310_1321_XC.mp3"
   },
   {
     name: "Pectoral Sandpiper",
@@ -1210,14 +1210,14 @@ const birds = [
       breeding: "assets/images/pesa-br.jpeg",
       nonbreeding: "assets/images/pesa-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC935127-B%C3%A9casseau-tachet%C3%A9-juv-envol-+.mp3"
   },
   {
     name: "Piping Plover",
     order: "charadriiformes",
     family: "Charadriidae",
     image: "assets/images/pipl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SNHVNQVYJV/PIPL2.mp3"
   },
   {
     name: "Pine Warbler",
@@ -1227,14 +1227,14 @@ const birds = [
       male: "assets/images/piwa-m.jpeg",
       female: "assets/images/piwa-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC895216-PIWA_2024-03-16_GWNF_Wescott_Access_Page_County_VA_1536(2).mp3"
   },
   {
     name: "Pileated Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/piwo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC157763-PILEATED%20WOODPECKER%20PERT%20PA%209.40am%2012012013.mp3"
   },
   {
     name: "Prairie Warbler",
@@ -1244,35 +1244,35 @@ const birds = [
       male: "assets/images/prwa-m.jpeg",
       female: "assets/images/prwa-f.jpeg"
     },
-    audio: "temp.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/DLGSDUKLNI/XC321069-PRAW%20Song%20at%20SPAC%2C%20MS%2006-11-16.mp3"
   },
   {
     name: "Prothonotary Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/prow.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PJVICFDZGZ/XC389965-160426%20Kentucky%20Land%20B%20Lakese_PROW%202.mp3"
   },
   {
     name: "Purple Gallinule",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/puga.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC443410-Frango%20dagua%20azul1%20%28Porphyrio%20martinicus-OK-OK%29%2015-11-18%209e34.mp3"
   },
   {
     name: "Purple Martin",
     order: "passeriformes",
     family: "Hirundinidae",
     image: "assets/images/puma.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/XNSUQRGJPZ/XC865618-2023-03-27-PUMA-song-0900.mp3"
   },
   {
     name: "Ring-billed Gull",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/rbgu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC164757-Ring-billed%20Gull%20first%20winter%20in%20gull%2C%20flock%20in%20park%20-FL%2C%20Titusville%2C%20January%2014%2C%202014%2C%200903%20AM.mp3"
   },
   {
     name: "Red-breasted Merganser",
@@ -1282,35 +1282,35 @@ const birds = [
       male: "assets/images/rbme-m.jpeg",
       female: "assets/images/rbme-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MMEJYLOPDO/XC801187-Sm%C3%A5skrake_12.mp3"
   },
   {
     name: "Red-breasted Nuthatch",
     order: "passeriformes",
     family: "Sittidae",
     image: "assets/images/rbnu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SPMWIWZKKC/XC753160-220701_5430_RBNU.mp3"
   },
   {
     name: "Red-bellied Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/rbwo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC713255-031622%200712%20Red-bellied%20Woodpecker%20Call%20and%20Tap.mp3"
   },
   {
     name: "Ruby-crowned Kinglet",
     order: "passeriformes",
     family: "Regulidae",
     image: "assets/images/rcki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VWWRQKFKMD/XC814137-racr-17juin23-9h.mp3"
   },
   {
     name: "Red-cockaded Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/rcwo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC360993-Red-cockaded%20Woodpecker%20single%20-FL%2C%20Buffer%20Preserve%2C%20March%2022%2C%202017%2C%200847%20AM.mp3"
   },
   {
     name: "Redhead",
@@ -1320,7 +1320,7 @@ const birds = [
       male: "assets/images/redh-m.jpeg",
       female: "assets/images/redh-f.jpeg"
     },
-    audio: "temp.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GLMCVGNYAT/XC206445-Redhead.mp3"
   },
   {
     name: "Reddish Egret",
@@ -1330,28 +1330,28 @@ const birds = [
       dark: "assets/images/reeg-d.jpeg",
       white: "assets/images/reeg-w.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC452975-Reddish%20Egret%20-TX%2C%20South%20Padre%20Is%2C%20Birding%20and%20Nature%20Center%2C%20December%2014%2C%202017%2C%200356%20PM.mp3"
   },
   {
     name: "Red Knot",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/rekn.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC185588-Red%20Knot2014-6-22-7.mp3"
   },
   {
     name: "Red-eyed Vireo",
     order: "passeriformes",
     family: "Vireonidae",
     image: "assets/images/revi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISEVSYKZZW/XC840741-Vir%C3%A9o-%C3%A0-oeil-rouge-2---Chaffey-s-Lock---29-05-2023.mp3"
   },
   {
     name: "Red-headed Woodpecker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/rhwo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JWNQIKQAIE/XC733937-220327%20tapping%20with%20drum%20querr%20.mp3"
   },
   {
     name: "Ring-necked Duck",
@@ -1361,42 +1361,42 @@ const birds = [
       male: "assets/images/rndu-m.jpeg",
       female: "assets/images/rndu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/TQCWZTAINA/XC938581-RNDU-20240610T210000-0300_StPaulIslandA7-fade-rumblefilter_120.mp3"
   },
   {
     name: "Rock Pigeon",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/ropi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ISVHGXLFPC/XC840017-PalomaUCM.mp3"
   },
   {
     name: "Roseate Spoonbill",
     order: "pelecaniformes",
     family: "Threskiornithidae",
     image: "assets/images/rosp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC451725-Roseate%20Spoonbill%201%20in%20tree%20-FL%2C%20River%20Lakes%2C%20August%2020%2C%202018%2C%200806%20AM.mp3"
   },
   {
     name: "Royal Tern",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/royt.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MLFEJSNPJS/XC901107-Royal-Tern-130424.mp3"
   },
   {
     name: "Red-shouldered Hawk",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/rsha.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MDZVOPUOXU/XC545866-200414_01.red.shouldered.hawk.e.loma.alta.dr.lance.benner.mp3"
   },
   {
     name: "Red-tailed Hawk",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/rtha.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC973864-HAWK_Red-tai_c-SBNWR-1100m-120523-1024.mp3"
   },
   {
     name: "Ruby-throated Hummingbird",
@@ -1406,7 +1406,7 @@ const birds = [
       male: "assets/images/rthu-m.jpeg",
       female: "assets/images/rthu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC758917-Ruby-throated-Hummingbird-calls-SAn-Bautista-Guelache-nov-1-932_0737.mp3"
   },
   {
     name: "Ruddy Duck",
@@ -1416,14 +1416,14 @@ const birds = [
       male: "assets/images/rudu-m.jpeg",
       female: "assets/images/rudu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC483784-5302019%201142%20RUDU.mp3"
   },
   {
     name: "Ruddy Turnstone",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/rutu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YNOAMCSSHX/XC841456-Ruddy-Turnstone%E7%BF%BB%E7%9F%B3%E9%B9%AC-call--2309100609-%E5%8D%97%E6%B1%87%E5%98%B4-%E9%A3%9E%E8%A1%8CSHADOW_3839S12---A.mp3"
   },
   {
     name: "Red-winged Blackbird",
@@ -1433,42 +1433,42 @@ const birds = [
       male: "assets/images/rwbl-m.jpeg",
       female: "assets/images/rwbl-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MLFEJSNPJS/XC805782-Red-winged-Blackbird.mp3"
   },
   {
     name: "Sandhill Crane",
     order: "gruiformes",
     family: "Gruidae",
     image: "assets/images/sacr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC540189-SACR_2019-11-06_Oak_Island%20RD_Sauvie_Island_OR_1145%282%29.mp3"
   },
   {
     name: "Sanderling",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/sand.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/BJAXFFKOML/XC938622-B%C3%A9casseausanderling_170924_saintpairthar_20h48_cripos%C3%A9_A.mp3"
   },
   {
     name: "Sandwich Tern",
     order: "charadriiformes",
     family: "Laridae",
     image: "assets/images/sate.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WBZVBDKAUE/XC1002894-sandwichtac.mp3"
   },
   {
     name: "Savannah Sparrow",
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/savs.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/IGXRFYAGNH/XC782409-SAVS_YTHEMP-YSL-266936-S2_20210701_050000.mp3"
   },
   {
     name: "Short-billed Dowitcher",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/sbdo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC460722-Short-billed%20Dowitcher%20ns%2C%20on%20ground%20-FL%2C%20MI%20NWR%2C%20Pumphouse%20Road%2C%20May%2010%2C%202018%2C%200731%20AM.mp3"
   },
   {
     name: "Scarlet Tanager",
@@ -1478,14 +1478,14 @@ const birds = [
       male: "assets/images/scta-m.jpeg",
       female: "assets/images/scta-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/IUWJMMZJNL/XC896571-SCTA-April-16-2024-aud.mp3"
   },
   {
     name: "Semipalmated Plover",
     order: "charadriiformes",
     family: "Charadriidae",
     image: "assets/images/sepl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JXZPZYPQKP/XC785375-Charadrius-semipalmatus4TOP_Cabo-da-Praia.mp3"
   },
     {
     name: 'Semipalmated Sandpiper',
@@ -1495,56 +1495,56 @@ const birds = [
       breeding: 'assets/images/sesa-br.jpeg',
       nonbreeding: 'assets/images/sesa-nb.jpeg'
     },
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC460745-Semipalmated%20Sandpiper%20-FL%2C%20MINWR%2C%20Pumphouse%20Road%2C%20May%2012%2C%202018%2C%200716%20AM.mp3'
   },
   {
     name: "Seaside Sparrow",
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/sesp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC167940-Seaside%20Sparrow%20-FL%2C%20Big%20Bend%20area%2C%20April%2015%2C%20%E2%80%8E2012%2C%200713%20PM.mp3"
   },
   {
     name: "Sedge Wren",
     order: "passeriformes",
     family: "Troglodytidae",
     image: "assets/images/sewr.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ZEFHZHEMLK/XC815807-MIXPRE-13027XCSedgeWren7-11-23CarneyFen.mp3"
   },
   {
     name: "Snowy Egret",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/sneg.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC705551-SNOWY%20EGRET%20interaction%20between%20two%20birds%20Big%20Cypress%20NR%20FL%207.08am%20%2002262022%20.mp3"
   },
   {
     name: "Snail Kite",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/snki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC381869-Snail%20Kite%20male%20-FL%2C%20Goodwin%20Marsh%2C%20July%2025%2C%202017%2C%201045%20AM.mp3"
   },
   {
     name: "Snowy Plover",
     order: "charadriiformes",
     family: "Charadriidae",
     image: "assets/images/snpl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC286696-Snowy%20Plover%20ground%20then%20flt%20-CA%2C%20end%20of%20Poe%20Rd%2C%20Salton%20Sea%2C%20April%2028%2C%202015%2C%201054%20AM.mp3"
   },
   {
     name: "Sora",
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/sora.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/AYKHDFBYIH/XC477043-Sora%20singing%20very%20good%202019%2005%2014%20Hillman%20Marsh%2C%20Canada1337_short.mp3"
   },
   {
     name: "Solitary Sandpiper",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/sosa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LXKLWEDKEM/XC674366-08-09-2021%207e44%20Macarico%20solitario.mp3"
   },
   {
     name: "Spotted Sandpiper",
@@ -1554,42 +1554,42 @@ const birds = [
       breeding: "assets/images/spsa.jpeg",
       nonbreeding: "assets/images/spsa-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/OCGLDSUVRE/XC559004-Spotted%20Sandpiper%20Actitis%20macularius%20Summit%20Lake%20Lassen%20NP%20Shasta%20Co.%20CA%207-30-19.mp3"
   },
   {
     name: "Sharp-shinned Hawk",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/ssha.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/VKQHDAFQDZ/XC791005-Gavil%C3%A1n-Chico-Amp.mp3"
   },
   {
     name: "Scissor-tailed Flycatcher",
     order: "passeriformes",
     family: "Tyrannidae",
     image: "assets/images/stfl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ORMANUUWJE/XC538195-Scissor%20tailed%20Flycatcher.mp3"
   },
   {
     name: "Short-tailed Hawk",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/stha.jpeg",
-    audio: "TEMP.mp3"
+    audio: "//xeno-canto.org/sounds/uploaded/VEQNJRSIPU/XC982867-241111_16_out.mp3"
   },
   {
     name: "Swallow-tailed Kite",
     order: "accipitriformes",
     family: "Accipitridae",
     image: "assets/images/stki.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/PVWSUUVNDA/XC844661-G.-tesoura.mp3"
   },
   {
     name: "Stilt Sandpiper",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/stsa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/DLGSDUKLNI/XC316118-STSA%20Calls%20in%20Humphreys%20Co.%2C%20MS%2005-11-16.mp3"
   },
   {
     name: "Summer Tanager",
@@ -1599,42 +1599,42 @@ const birds = [
       male: "assets/images/suta-m.jpeg",
       female: "assets/images/suta-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/EXBETBIAJB/XC559482-SUTA.mp3"
   },
   {
     name: "Swamp Sparrow",
     order: "passeriformes",
     family: "Passerellidae",
     image: "assets/images/swsp.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WFUNWVJFSZ/XC553925-2020-05-02-petitcotesong.mp3"
   },
   {
     name: "Tri-colored Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/trhe.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC192727-Tricolored%20Heron%20-FL%2C%20MINWR%2C%20Peacocks%20Pocket%2C%20June%2003%2C%202014%2C%200907%20AM.mp3"
   },
   {
     name: "Tree Swallow",
     order: "passeriformes",
     family: "Hirundinidae",
     image: "assets/images/trsw.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WFUNWVJFSZ/XC475639-TreeSwallows_PPNPMarsh_Rec17-05-2019%4005_29_23.mp3"
   },
   {
     name: "Tufted Titmouse",
     order: "passeriformes",
     family: "Paridae",
     image: "assets/images/tuti.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC814179-TUTI_PIWA_CACH_2023-02-28_Indian_Grave_Ridge_Trail_Page_County_VA_1145(2).mp3"
   },
   {
     name: "Turkey Vulture",
     order: "accipitriformes",
     family: "Cathartidae",
     image: "assets/images/tuvu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SEVIQQAKWM/XC520287-ZOOM0003_Tr1%20-%20Jote%20Cabeza%20colorada.mp3"
   },
   {
     name: "Virginia Rail",
