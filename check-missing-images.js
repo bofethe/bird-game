@@ -1,3 +1,5 @@
+// You can run this script with node check-missing-images.js
+
 const fs = require('fs');
 const path = require('path');
 
