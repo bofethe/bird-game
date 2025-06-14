@@ -9,5 +9,5 @@ This project is currently under development. Images, audio, and data are still b
 Once complete, the game will include:
 - Bird photos
 - Bird calls
-- Multiple choice questions
-- Scoring and feedback
+- Practice and Exam style UX
+- Leaderboard
