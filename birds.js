@@ -1641,14 +1641,14 @@ const birds = [
     order: "gruiformes",
     family: "Rallidae",
     image: "assets/images/vira.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC698488-Virginia%27s%20Rail%20San%20greogorio%20song%20ene%2017%201330_3072.mp3"
   },
   {
     name: "White-crowned Pigeon",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/wcpi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC145944-White-crowned%20Pigeon%20-FL%2C%20No%20Name%20Key%2C%20June%2013%2C%202013%2C%200955%20AM.mp3"
   },
   {
     name: "Western Sandpiper",
@@ -1658,56 +1658,56 @@ const birds = [
       breeding: "assets/images/wesa-br.jpeg",
       nonbreeding: "assets/images/wesa-nb.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CDTGHVBGZP/XC149252-Western%20Sandpiper2013-5-23-8.mp3"
   },
   {
     name: "White-eyed Vireo",
     order: "passeriformes",
     family: "Vireonidae",
     image: "assets/images/wevi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/KZYUWIRZVH/XC827619-VIREO_Whi-eye-McCormack-L-MO-200m-052323-1030.mp3"
   },
   {
     name: "Worm-eating Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/wewa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC933616-WEWA_EATO_2024-05-13_GWNF_Emerald_Pond_Page_County_VA_1020(2).mp3"
   },
   {
     name: "White Ibis",
     order: "pelecaniformes",
     family: "Threskiornithidae",
     image: "assets/images/whib.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FSCGENVPXK/XC780786-WHITE-IBIS-5-birds-taking-off-Bailey-Tract-7.30am-02222016.mp3"
   },
   {
     name: "Whimbrel",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/whim.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/BBFFGHPZZQ/XC1001186-Whimbrel-%28Numenius-phaeopus-hudsonicus%29.mp3"
   },
   {
     name: "Willet",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/will.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/MLFEJSNPJS/XC901132-Willet100424.mp3"
   },
   {
     name: "Wilson's Plover",
     order: "charadriiformes",
     family: "Charadriidae",
     image: "assets/images/wipl.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/XTVEPHMPPJ/XC238126-Charadrius_wilsonia30cut2A.mp3"
   },
   {
     name: "Wilson's Snipe",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/wisn.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/YSDNMROVID/XC342368-341_galdel_%C3%A4ysk2-kutsu_Portugali_Azorit_2011-10-21.mp3"
   },
   {
     name: "Wild Turkey",
@@ -1717,7 +1717,7 @@ const birds = [
       male: "assets/images/witu-m.jpeg",
       female: "assets/images/witu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/JHFICMRVUX/XC539775-3-22-20%20655%20Male-female%20Turkey.mp3"
   },
   {
     name: "Wood Duck",
@@ -1727,84 +1727,84 @@ const birds = [
       male: "assets/images/wodu-m.jpeg",
       female: "assets/images/wodu-f.jpeg"
     },
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/SDPCHKOHRH/XC522565-Canard%20carolin%20divers%20cris%20%2B.mp3"
   },
   {
     name: "Wood Stork",
     order: "pelecaniformes",
     family: "Ciconiidae",
     image: "assets/images/wost.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC149638-Wood%20Stork%20%282%29%20-Viera%20Wetlands%2C%20Jun%2023%2C%202008.mp3"
   },
   {
     name: 'Wood Thrush',
     order: 'passeriformes',
     family: 'Turdidae',
     image: 'assets/images/woth.jpeg',
-    audio: 'TEMP.mp3'
+    audio: 'https://xeno-canto.org/sounds/uploaded/QUBGGKWQNN/XC1001801-250524_1260_WoodThrush_HartsBrook_24May25_1828.mp3'
   },
   {
     name: "White-rumped Sandpiper",
     order: "charadriiformes",
     family: "Scolopacidae",
     image: "assets/images/wrsa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/WETAASKWUP/XC836099-230831_5990b.mp3"
   },
   {
     name: "White-winged Dove",
     order: "columbiformes",
     family: "Columbidae",
     image: "assets/images/wwdo.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/ILUHRFXDNU/XC915046-White-winged-Dove-song-SAE-jun-21-842-DR0000_2069.mp3"
   },
   {
     name: "Yellow-billed Cuckoo",
     order: "cuculiformes",
     family: "Cuculidae",
     image: "assets/images/ybcu.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/LWQBBYMIQQ/XC684511-ewx211104_Yellow-billed%20Cuckoo.MP3"
   },
   {
     name: "Yellow-bellied Sapsucker",
     order: "piciformes",
     family: "Picidae",
     image: "assets/images/ybsa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/CQVHGWMGMC/XC870691-ybsa020124.mp3"
   },
   {
     name: "Yellow-crowned Night-Heron",
     order: "pelecaniformes",
     family: "Ardeidae",
     image: "assets/images/ycnh.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/RFTXRYBVBX/XC644423-Yellow-crowned%20Night-Heron%2050%20yd%20flt%20-CA%2C%20TJ%20Estuary%2C%20May%2001%2C%202021%2C%200729%20AM.mp3"
   },
   {
     name: "Yellow Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/yewa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/FHQVLXJQKW/XC794002-Yellow-Warbler-1.mp3"
   },
   {
     name: "Yellow-rumped Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/yrwa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/EMFMDDVOUG/XC798976-230506-003YRWA-wtsp-ybsa-heth-amro-rcki-Milburn-rd-marsh-southnot-seen-0518.mp3"
   },
   {
     name: "Yellow-throated Vireo",
     order: "passeriformes",
     family: "Vireonidae",
     image: "assets/images/ytvi.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/GVVNEJJEGA/XC913379-YTVI_2024-05-01_Pass_Mountain_Overlook_Shenandoah_NP_Page_County_VA_1012(2).mp3"
   },
   {
     name: "Yellow-throated Warbler",
     order: "passeriformes",
     family: "Parulidae",
     image: "assets/images/ytwa.jpeg",
-    audio: "TEMP.mp3"
+    audio: "https://xeno-canto.org/sounds/uploaded/UBZMIPGNRT/XC980688-1336613[1].mp3"
   }
 
 ];
