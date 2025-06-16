@@ -1,17 +1,19 @@
 /* Base layout reset and centering */
 html, body {
-  height: 100%;
   margin: 0;
   padding: 0;
+  min-height: 100%;
+  overflow-x: hidden; /* keep horizontal overflow hidden */
+  overflow-y: auto;   /* allow scrolling vertically */
 }
 
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #fafafa;
-  height: 100vh;
+  padding: 2rem 1rem;
 }
+
 
 /* Main app wrapper */
 #app-container {
@@ -68,10 +70,11 @@ button {
 
 /* Action/control buttons */
 #next-btn,
-#see-results-btn,
+#quit-btn,
 #submit-btn,
 #play-again-btn,
-#quit-btn {
+#quit-btn,
+#home-btn {
   background-color: #f39c12;
   color: white;
   font-weight: bold;
@@ -84,10 +87,11 @@ button {
 }
 
 #next-btn:hover:not(:disabled),
-#see-results-btn:hover,
+#quit-btn:hover,
 #submit-btn:hover,
 #play-again-btn:hover,
-#quit-btn:hover {
+#quit-btn:hover,
+#home-btn:hover {
   background-color: #d67f0b;
   box-shadow: 0 5px 10px rgba(214, 127, 11, 0.8);
 }
