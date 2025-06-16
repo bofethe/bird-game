@@ -1,90 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bird ID App</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bird ID App</title>
 
-    <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDXJTLM8N"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-1VDXJTLM8N');
-  </script>
+      <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDXJTLM8N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1VDXJTLM8N');
+    </script>
 
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
-  <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
-  <link rel="manifest" href="/assets/favicons/site.webmanifest" />
-</head>
-<body>
-  <div id="app-container">
-    <h1>Florida Bird Identification Game</h1>
-    <div id="welcome">
-      <label for="name-input">Enter your name to start:</label><br />
-      <input type="text" id="name-input" placeholder="Your name" />
-      <button id="start-btn" class="control-btn">Start</button>
-    </div>
-    <div id="about">
-      <h2>About This Game</h2>
-      <p>
-        Welcome to the Tampa Bay Bird Identification Game! This game is designed to help you sharpen your skills in recognizing birds by sight.
-        Whether you're a beginner birder, a biologist preparing for an upcoming survey, or anyone looking for a great way to impress their 
-        friends at a party, this game is for you.
-      </p>
-      <p>
-        You'll be presented with a series of images and your goal is to correctly identify the species from a list of choices.
-        After each round, you can review your answers and see how you did. Your objective is to get the highest score! Good luck!
-      </p>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+  </head>
 
-      <h2>Credits</h2>
-      <p>
-        This game was created by <a href="https://bofethe.github.io?utm_source=birdgame" target="_blank">Bo Fethe</a> as a fun way to 
-        engage with birdwatching enthusiasts and help them learn more about Florida's diverse bird species.
+  <body>
+    <div id="app-container">
 
-        Photos were sourced from the 
-        <a href="https://www.macaulaylibrary.org" target="_blank">Cornell Lab of Ornithology’s Macaulay Library</a>, 
-        and audio clips were sourced by 
-        <a href="https://www.xeno-canto.org" target="_blank">xeno-canto</a>.
-      </p>
-      <p>
-        Found a broken media file, or suggestions on improvements? 
-        <a href="https://github.com/bofethe/bird-game/issues/new/choose" target="_blank">
-          Report it here
-        </a>.
-      </p>
-      <p>
-        🚧 This site is under construction and there may be audio files missing and sudden UI changes. Pull requests are encouraged 
-        for those that would like to participate in the development of this site. Additionally, if you would like to sponsor this project
-        and cover cloud hosting costs or help me buy a real domain, please reach out to me via the contact info on my personal website.
-      </p>
-      <p>
-        <a href="https://github.com/bofethe/bird-game" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
-          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="30" height="30">
-          <img src="https://img.shields.io/github/last-commit/bofethe/bird-game" alt="Last Commit">
-        </a>
-      </p>
-    </div>
+      <h1>Florida Bird Identification Game</h1>
 
-    <div id="game">
-      <div id="media"></div>
-      <div id="choices"></div>
-      <button id="next-btn" class="action-btn" style="display:none;">Next</button>
-      <button id="see-results-btn" class="action-btn" style="display:none;">Results</button>
-    </div>
+      <!-- Name input -->
+      <div id="welcome">
+        <label for="name-input">Enter your name to start:</label><br />
+        <input type="text" id="name-input" placeholder="Your name" />
+        <!-- <button id="start-btn" class="control-btn">Start</button> -->
+      </div>
 
-    <div id="scoreboard" style="display:none;">
-      <!-- Results will be shown here -->
-      <button id="submit-btn" style="display:none;">Submit to Leaderboard</button>
-      <button id="play-again-btn" style="display:none;">Play Again</button>
-    </div>
-  </div>
+      <!-- Mode selection -->
+      <div id="mode-select">
+        <button id="free-btn">Free Play</button>
+        <button id="time-btn">Time Mode</button>
+        <button id="sudden-btn">Sudden Death</button>
+      </div>
 
-  <script src="birds.js"></script>
-  <script src="app.js"></script>
-</body>
+      <!-- About the game -->
+      <div id="details">
+
+        <!-- Game mode descriptions -->
+        <h2>Game Modes</h2>
+        <p>
+          <strong>Free Play</strong> - Play at your own pace without any time limits.<br />
+          <strong>Time Mode</strong> - ID as many birds as you can within a 2-minute timer.<br />
+          <strong>Sudden Death</strong> - Get an ID wrong and it's game over!<br />
+        </p>
+
+        <h2>About This Game</h2>
+        <p>
+          Welcome to the Tampa Bay Bird Identification Game! This game is designed to 
+          help you sharpen your skills in recognizing birds by sight or sound. Whether 
+          you're a beginner birder, a biologist preparing for an upcoming survey, or 
+          anyone looking for a great way to impress their friends at a party, this game 
+          is for you.
+        </p>
+
+        <p>
+          You'll be presented with a series of images and your goal is to correctly identify 
+          the species from a list of choices. After each round, you can review your answers 
+          and see how you did. Your objective is to get the highest score! Good luck!
+        </p>
+
+        <h3>🚧 Development Status 🚧</h3>
+        <p>
+          This site is under construction and there may be audio files missing and sudden UI 
+          changes. Pull requests are encouraged for those that would like to participate in the 
+          development of this site. Additionally, if you would like to sponsor this project and 
+          cover cloud hosting costs (or help me buy a real domain), please reach out to me via 
+          the contact info on my website.
+        </p>
+
+        <!-- Credits -->
+        <h2>Credits</h2>
+
+        <p>
+          This game was created by <a href="https://bofethe.github.io?utm_source=birdgame" target="_blank">Bo Fethe</a> as a fun way to 
+          engage with birdwatching enthusiasts and help them learn more about Florida's diverse bird species.
+        </p>
+        <p>
+          Photos were sourced from the 
+          <a href="https://www.macaulaylibrary.org" target="_blank">Cornell Lab of Ornithology’s Macaulay Library</a>, 
+          and audio clips were sourced from 
+          <a href="https://www.xeno-canto.org" target="_blank">xeno-canto</a>.
+        </p>
+
+        <!-- Issues -->
+        <p>
+          Found a broken media file, or suggestions on improvements? 
+          <a href="https://github.com/bofethe/bird-game/issues/new/choose" target="_blank">
+            Report it here
+          </a>.
+        </p>
+
+        <!-- Add GitHub commit shield -->
+        <p>
+          <a href="https://github.com/bofethe/bird-game" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="30" height="30">
+            <img src="https://img.shields.io/github/last-commit/bofethe/bird-game" alt="Last Commit">
+          </a>
+        </p>
+      </div>
+
+      <div id="timer-container" style="display:none">
+        Time left: <span id="timer">02:00</span>
+      </div>
+
+      <div id="game">
+        <div id="media"></div>
+        <div id="choices"></div>
+        <button id="next-btn" class="action-btn" style="display:none;">Next</button>
+        <button id="quit-btn" class="action-btn" style="display:none;">Quit</button>
+      </div>
+
+      <div id="scoreboard" style="display: none;">
+        <!-- TODO Results will be injected here once Azure db is setup -->
+      </div>
+
+      <button id="submit-btn" style="display: none;">Submit</button>
+      <button id="play-again-btn" style="display: none;">Play Again</button>
+      <button id="home-btn" style="display: none;">Return to Home</button>
+
+    <script src="birds.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
