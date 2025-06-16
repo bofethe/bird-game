@@ -14,7 +14,6 @@ body {
   padding: 2rem 1rem;
 }
 
-
 /* Main app wrapper */
 #app-container {
   text-align: center;
@@ -26,8 +25,8 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* Welcome screen */
-#welcome {
+/* Start screen */
+#start {
   margin-bottom: 20px;
 }
 
@@ -45,7 +44,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, border 0.3s ease;
 }
 
 /* Choice buttons */
@@ -68,38 +67,67 @@ button {
   cursor: default;
 }
 
+/* Result styling for choices */
+.choice-disabled {
+  cursor: default;
+  box-shadow: none;
+}
+
+.choice-correct {
+  background-color: #8fbc8f !important;
+  color: #fff;
+}
+
+.choice-incorrect {
+  background-color: #d3d3d3 !important;
+  color: #555;
+}
+
+/* Bird image result borders */
+#media img {
+  /* transition: border 0.5s ease; */
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.img-correct {
+  border: 10px solid #05f505;
+}
+
+.img-incorrect {
+  border: 10px solid #ff0000;
+}
+
 /* Action/control buttons */
-#next-btn,
 #quit-btn,
 #submit-btn,
 #play-again-btn,
 #quit-btn,
+#free-btn,
+#time-btn,
+#sudden-btn,
 #home-btn {
   background-color: #f39c12;
   color: white;
   font-weight: bold;
   margin: 15px 10px 0 10px;
-  padding: 14px 30px;
+  padding: 7px 15px;
   font-size: 0.7rem;
   box-shadow: 0 4px 8px rgba(243, 156, 18, 0.6);
   border: 2px solid #d78b0b;
   min-width: 80px;
 }
 
-#next-btn:hover:not(:disabled),
 #quit-btn:hover,
 #submit-btn:hover,
 #play-again-btn:hover,
 #quit-btn:hover,
+#free-btn:hover,
+#time-btn:hover,
+#sudden-btn:hover,
 #home-btn:hover {
   background-color: #d67f0b;
   box-shadow: 0 5px 10px rgba(214, 127, 11, 0.8);
-}
-
-#next-btn:disabled {
-  background-color: #f0c078;
-  cursor: default;
-  box-shadow: none;
 }
 
 /* Media and choices */

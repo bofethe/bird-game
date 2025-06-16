@@ -5,6 +5,14 @@ let playerName = "";
 let gameMode = null;
 let timerInterval = null;
 let timeLeft = 0;
+let incorrectAnswers = [];
+
+document.addEventListener("DOMContentLoaded", () => {
+  const birdCountEl = document.getElementById("bird-count");
+  if (birdCountEl && Array.isArray(birds)) {
+    birdCountEl.textContent = birds.length;
+  }
+});
 
 document.getElementById("free-btn").onclick = () => startMode("free");
 document.getElementById("time-btn").onclick = () => startMode("time");
@@ -125,30 +133,47 @@ function showBird() {
     btn.onclick = () => checkAnswer(choice, btn);
     choicesDiv.appendChild(btn);
   });
-
-  document.getElementById("next-btn").disabled = true;
 }
 
 function checkAnswer(selected, button) {
-  const result = selected === currentBird.name;
-  if (result) {
+  const isCorrect = selected === currentBird.name;
+
+  // Disable all buttons and assign classes
+  document.querySelectorAll("#choices button").forEach((btn) => {
+    btn.classList.add("choice-disabled");
+    if (btn.textContent === currentBird.name) {
+      btn.classList.add("choice-correct");
+    } else {
+      btn.classList.add("choice-incorrect");
+    }
+    btn.disabled = true;
+  });
+
+  // Style the image container
+  const mediaImg = document.querySelector("#media img");
+  mediaImg.classList.add(isCorrect ? "img-correct" : "img-incorrect");
+
+  if (isCorrect) {
     score++;
-    button.style.backgroundColor = "#8fbc8f";
   } else {
-    button.style.backgroundColor = "#f08080";
-    document.querySelectorAll("#choices button").forEach((btn) => {
-      if (btn.textContent === currentBird.name) {
-        btn.style.backgroundColor = "#8fbc8f";
-      }
+    incorrectAnswers.push({
+      correct: currentBird.name,
+      audio: currentBird.audio,
+      image:
+        currentBird.image ||
+        (currentBird.images && Object.values(currentBird.images)[0]),
+      selected: selected,
     });
   }
-  disableButtons();
-  document.getElementById("next-btn").disabled = false;
 
-  if (gameMode === "sudden" && !result) {
-    showResults();
+  if (gameMode === "sudden" && !isCorrect) {
+    setTimeout(showResults, 1000);
     return;
   }
+
+  setTimeout(() => {
+    showBird();
+  }, 1000);
 }
 
 function disableButtons() {
@@ -169,7 +194,6 @@ function showResults() {
   }
 
   // Hide game buttons
-  document.getElementById("next-btn").style.display = "none";
   document.getElementById("quit-btn").style.display = "none";
 
   const pct = ((score / totalQuestions) * 100).toFixed(1);
@@ -179,6 +203,21 @@ function showResults() {
     <p>You got <strong>${score}</strong> out of ${totalQuestions} attempts correct</p>
     <p>Grade: <b>${pct}%</b></p>
   `;
+
+  if (incorrectAnswers.length > 0) {
+    scoreboard.innerHTML += `<h4>Birds you missed:</h4>`;
+    incorrectAnswers.forEach((entry) => {
+      scoreboard.innerHTML += `
+        <div style="margin-bottom: 1rem; text-align: left;">
+          <strong>You guessed:</strong> ${entry.selected}<br>
+          <strong>Correct:</strong> ${entry.correct}<br>
+          <img src="${entry.image}" alt="${entry.correct}" width="200" /><br>
+          <audio controls src="${entry.audio}"></audio>
+        </div>
+      `;
+    });
+  }
+
   scoreboard.style.display = "block";
 
   const submitBtn = document.getElementById("submit-btn");
@@ -205,20 +244,20 @@ function showResults() {
   playAgainBtn.onclick = () => {
     score = 0;
     totalQuestions = 0;
+    incorrectAnswers = [];
+
     scoreboard.style.display = "none";
     submitBtn.style.display = "none";
     playAgainBtn.style.display = "none";
     homeBtn.style.display = "none";
 
     document.getElementById("game").style.display = "block";
-    document.getElementById("next-btn").style.display = "inline-block";
     document.getElementById("quit-btn").style.display = "inline-block";
 
     if (gameMode === "time") {
       document.getElementById("timer-container").style.display = "block";
       startTimer(120); // restart the timer
     }
-
     showBird();
   };
 
@@ -228,6 +267,7 @@ function showResults() {
     // Reset game state
     score = 0;
     totalQuestions = 0;
+    incorrectAnswers = [];
     playerName = "";
     gameMode = null;
     clearInterval(timerInterval);
@@ -236,8 +276,6 @@ function showResults() {
     document.getElementById("scoreboard").style.display = "none";
     document.getElementById("game").style.display = "none";
     document.getElementById("timer-container").style.display = "none";
-
-    document.getElementById("next-btn").style.display = "none";
     document.getElementById("quit-btn").style.display = "none";
     document.getElementById("submit-btn").style.display = "none";
     document.getElementById("play-again-btn").style.display = "none";
@@ -245,7 +283,7 @@ function showResults() {
 
     // Show all initial sections
     document.getElementById("app-container").style.display = "block";
-    document.getElementById("welcome").style.display = "block";
+    document.getElementById("start").style.display = "block";
     document.getElementById("mode-select").style.display = "block";
     document.getElementById("details").style.display = "block";
 
@@ -255,25 +293,19 @@ function showResults() {
 }
 
 function startGame() {
-  document.getElementById("welcome").style.display = "none";
+  document.getElementById("start").style.display = "none";
   document.getElementById("game").style.display = "block";
   document.getElementById("details").style.display = "none";
-
-  document.getElementById("next-btn").style.display = "inline-block";
   document.getElementById("quit-btn").style.display = "inline-block";
 
   showBird();
 }
 
 // Event Listeners
-// document.getElementById("start-btn").addEventListener("click", startGame);
-document.getElementById("next-btn").addEventListener("click", showBird);
 document.getElementById("quit-btn").addEventListener("click", showResults);
 
 // Initial UI Setup
-// document.getElementById("score").style.display = "none";
 document.getElementById("scoreboard").style.display = "none";
 document.getElementById("game").style.display = "none";
 document.getElementById("play-again-btn").style.display = "none";
 document.getElementById("home-btn").style.display = "none";
-document.getElementById("next-btn").disabled = true;

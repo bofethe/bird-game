@@ -28,8 +28,8 @@
       <h1>Florida Bird Identification Game</h1>
 
       <!-- Name input -->
-      <div id="welcome">
-        <label for="name-input">Enter your name to start:</label><br />
+      <div id="start">
+        <label for="name-input">Enter your name and select a mode to start:</label><br />
         <input type="text" id="name-input" placeholder="Your name" />
         <!-- <button id="start-btn" class="control-btn">Start</button> -->
       </div>
@@ -62,17 +62,18 @@
         </p>
 
         <p>
-          You'll be presented with a series of images and your goal is to correctly identify 
-          the species from a list of choices. After each round, you can review your answers 
-          and see how you did. Your objective is to get the highest score! Good luck!
+          You'll be presented with a series of images with audio recordings and your goal is to correctly identify 
+          the species from a list of choices. There are <strong><span id="bird-count">...</span></strong> species included in this application 
+          consisting of all state-listed species as well as the commonly found birds based of <a href="https://ebird.org" target="_blank">eBird</a> observations 
+          in the Tampa Bay counties. After each round, you can review your answers and see how you did. Good luck!
         </p>
 
         <h3>🚧 Development Status 🚧</h3>
         <p>
-          This site is under construction and there may be audio files missing and sudden UI 
-          changes. Pull requests are encouraged for those that would like to participate in the 
+          This site is under construction and there may be audio files missing and frequent UI 
+          changes. Pull requests through GitHub are encouraged for those that would like to participate in the 
           development of this site. Additionally, if you would like to sponsor this project and 
-          cover cloud hosting costs (or help me buy a real domain), please reach out to me via 
+          cover cloud hosting costs (or help me buy a real domain), please reach out to via 
           the contact info on my website.
         </p>
 
@@ -114,7 +115,6 @@
       <div id="game">
         <div id="media"></div>
         <div id="choices"></div>
-        <button id="next-btn" class="action-btn" style="display:none;">Next</button>
         <button id="quit-btn" class="action-btn" style="display:none;">Quit</button>
       </div>
 
